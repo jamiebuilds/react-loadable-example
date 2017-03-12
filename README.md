@@ -9,7 +9,7 @@ Introductory blog post: https://medium.com/@thejameskyle/react-loadable-2674c59d
 - [`src/components/App.js`](./src/components/App.js)
 - [`src/components/Loading.js`](./src/components/Loading.js)
 - [`src/components/Example.js`](./src/components/Example.js)
-- [`webpackage.config.js`](./webpackage.config.js)
+- [`webpack.config.js`](./webpack.config.js)
 
 **Running locally**
 
