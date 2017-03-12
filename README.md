@@ -2,6 +2,8 @@
 
 Example project for [React Loadable](https://github.com/thejameskyle/react-loadable)
 
+Introductory blog post: https://medium.com/@thejameskyle/react-loadable-2674c59de178#.6h46yjgwr
+
 **Important files**
 
 - [`src/components/App.js`](./src/components/App.js)
