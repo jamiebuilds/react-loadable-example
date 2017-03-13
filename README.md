@@ -20,4 +20,4 @@ yarn install
 yarn start
 ```
 
-Then open up [localhost:8000](http://localhost:8000) in your browser.
+Then open up [localhost:9000](http://localhost:9000) in your browser.
