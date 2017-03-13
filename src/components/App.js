@@ -5,7 +5,9 @@ import fakeDelay from './fakeDelay';
 import path from 'path';
 
 let LoadableExample = Loadable(
-  () => fakeDelay(400).then(() => import('./Example')),
+  () => fakeDelay(400).then(
+    () => import('./Example')
+  ).then(ex => ex.default),
   Loading,
   null,
   path.resolve(__dirname, './Example')
