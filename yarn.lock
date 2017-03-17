@@ -1937,9 +1937,9 @@ react-dom@^15.4.2:
     loose-envify "^1.1.0"
     object-assign "^4.1.0"
 
-react-loadable@^2.0.2:
-  version "2.0.3"
-  resolved "https://registry.yarnpkg.com/react-loadable/-/react-loadable-2.0.3.tgz#eb58786db42364252e8279b2b83963b331c3a0d8"
+react-loadable@^3.0.1:
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/react-loadable/-/react-loadable-3.0.1.tgz#d285d0f32680fef3cf7c1fd8853206415f824ad8"
 
 react@^15.4.2:
   version "15.4.2"

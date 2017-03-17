@@ -4,12 +4,11 @@ import Loading from './Loading';
 import fakeDelay from './fakeDelay';
 import path from 'path';
 
-let LoadableExample = Loadable(
-  () => fakeDelay(400).then(() => import('./Example')),
-  Loading,
-  null,
-  path.resolve(__dirname, './Example')
-);
+let LoadableExample = Loadable({
+  loader: () => fakeDelay(400).then(() => import('./Example')),
+  LoadingComponent: Loading,
+  serverSideRequirePath: path.resolve(__dirname, './Example')
+});
 
 export default function App() {
   return (
