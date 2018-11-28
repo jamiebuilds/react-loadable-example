@@ -13,8 +13,8 @@ Introductory blog post: https://medium.com/@thejameskyle/react-loadable-2674c59d
 
 **Running locally**
 
-```js
-git clone git@github.com:thejameskyle/react-loadable-example.git
+```
+git clone https://github.com/jamiebuilds/react-loadable-example
 cd react-loadable-example
 yarn install
 yarn start
